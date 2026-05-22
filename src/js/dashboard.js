@@ -7,5 +7,5 @@ if (localStorage.getItem("veloraAuth") !== "true") {
 document.getElementById("logoutBtn").addEventListener("click", () => {
   localStorage.removeItem("veloraAuth");
 
-  window.location.href = "login.html";
+  window.location.href = "./login.html";
 });

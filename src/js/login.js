@@ -10,7 +10,7 @@ const loginBtn = document.getElementById("loginBtn");
     if (email === "admin@velora.com" && password === "123456") {
       localStorage.setItem("veloraAuth", "true");
 
-      window.location.href = "dashboard.html";
+      window.location.href = "./dashboard.html";
     } else {
       alert("Invalid email or password");
     }
