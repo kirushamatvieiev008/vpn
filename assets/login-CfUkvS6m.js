@@ -1,1 +1,0 @@
-import"./style-DmKsO3eO.js";document.getElementById(`loginBtn`).addEventListener(`click`,()=>{let e=document.getElementById(`email`).value,t=document.getElementById(`password`).value;e===`admin@velora.com`&&t===`123456`?(localStorage.setItem(`veloraAuth`,`true`),window.location.href=`./dashboard.html`):alert(`Invalid email or password`)});

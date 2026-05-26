@@ -1,1 +1,0 @@
-import"./style-DmKsO3eO.js";import"./main-DiywCff-.js";localStorage.getItem(`veloraAuth`)!==`true`&&(window.location.href=`login.html`),document.getElementById(`logoutBtn`).addEventListener(`click`,()=>{localStorage.removeItem(`veloraAuth`),window.location.href=`./login.html`});
